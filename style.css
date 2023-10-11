@@ -11,6 +11,9 @@
     color: #fff;
     padding: 0 8.5%;
     position: relative;
+    background-image: url("images/result.png");
+    background-size: cover;
+   
 }
 nav{
     display: flex;
