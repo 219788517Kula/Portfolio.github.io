@@ -39,10 +39,55 @@
             typeSpeed:100,
             backSpeed: 100,
             loop: true
-
-            
         })
     </script>
 </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+           <img src="images/lebo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="title">About Me</h1>
+                <p>I am an IT student specializing in Intelligence Industrial  Systems
+                    <br> at Tshwane University of Technology (TUT). With only six
+                    <br> months of integrated learning left to complete my national diploma,
+                    <br> I am eager to apply the skills and knowledge I have gained throughout 
+                    <br> my academic journey.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(skills)">Skills</p>
+                        <p class="tab-links" onclick="opentab(experience)">Experience</p>
+                        <p class="tab-links" onclick="opentab(education)">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                            <li><span>Web Development</span><br>Wep app Development</li>
+                            <li><span>App Development</span><br> Building Android/iOS apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>none</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Senior Certificate</li>
+                            <li><span>2023</span><br>Introduction to Cyber-Security</li>
+                            <li><span>2024</span><br> National Diploma in Information Technology</li>
+                        </ul>
+                    </div>
+                    
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
